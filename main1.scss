@@ -1,0 +1,1938 @@
+// Firats
+
+
+
+.i1, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .Nästa {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 9%;
+    position: relative;
+    left: 40%;
+  }
+  
+  .Nästa:hover {
+    background-color: #247228;
+  }
+  
+  .info{
+      text-align: center;      
+  }
+
+  .header-1 {
+    background-color: gray;
+    height: 30%;
+    width: 35%;
+    position: relative;
+    left: 30%; 
+    border-radius: 5px;
+    background-color: #918181;
+    padding: 20px; 
+  }
+
+
+
+  .header-2{
+    background-color: gray;
+    height: 30%;
+    width: 35%;
+    position: relative;
+    left: 30%;
+  }
+
+  
+  .swish{
+    width: 20px;
+    height: 20px;
+  }
+
+  
+  .fält{
+    text-align: center;
+    color: red;
+    
+  }
+
+  .bild-1{
+    position: relative;
+    left: 37%
+}
+
+.text-1{
+    position: relative;
+    left: 40%;
+    color: green;
+}
+
+.text-2{
+    position: relative;
+    left: 36%;
+    color: olivedrab;
+}
+  
+  //Veronicas
+  // Veronicas SCSS
+body  {
+  color: rgb(250, 246, 246);
+  height: 100%; 
+  margin: 0;
+  height: 100%;
+  margin: auto;    
+} 
+    
+p {
+  line-height: 1.5em;
+}
+
+
+// Styling för inloggningsformulär
+
+.login { 
+  margin: 10px auto;
+  width: 320px;
+}
+
+.login form {
+  margin: auto;
+  padding: 10px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  background: #212224;
+  border-top: 10px solid #121213;
+  border-bottom: 3px solid #0c0c0c;
+  opacity: 90%;
+}
+ 
+.login form span {
+  background-color: #cfdae7;
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #feffff;
+  color: #606468;
+  display: block;
+  float: left;
+  line-height: 50px; 
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.login form input[type="email"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+
+.login form input[type="password"] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}   
+
+.login form input[type="submit"] {
+  background: #ec0bc648;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+#login form input[type="submit"]:hover {
+  background: #0ae268;
+}
+
+#remember {
+  padding: 4px;
+}
+
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: 19px;
+  color: white;
+
+
+// Styling för produktformulär
+
+.product { 
+  margin: 10px auto;
+  width: 320px;
+}
+
+input {
+  justify-content: center;
+}
+
+
+.product form input {
+  background-color: #212224;
+  border-radius: 0px 3px 3px 0px;
+  color:white;
+  margin-bottom: 40px;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px; 
+}
+
+
+.addProd , .btnHome {
+  background: #0bec6977;
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+    
+.login { 
+  margin: 10px auto;
+  width: 320px; 
+}
+
+.product form {
+  margin: auto;
+  padding: 10px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  background: #f0f1f3;
+  color: white;
+  border-top: 10px solid #212224;
+  border-bottom: 3px solid #434a52;
+  opacity: 90%;
+}
+
+
+
+.product-container {
+  color: rgb(26, 25, 25);
+  
+}
+
+.product-container img { 
+  height: 300px; 
+  width: 300px;
+  margin: 20px;
+}
+
+
+.styleContainer {
+  border: 2px solid #646363;
+  border-radius: 5px;
+  padding: 2px;
+  margin-right: 8px;
+  margin-top: 8px;
+  border-width: 1px; 
+}
+
+} 
+/*  Julias css för wishlist-sidan */
+
+.Wish-rubrik {
+  color:black;
+}
+
+.wListproduct-container {
+  max-width: 60%;
+  margin: 0 auto;
+  border: grey solid 2px;
+  border-radius: 20px;
+}
+
+.Wproduct-container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 100px;
+  padding-bottom: 100px;
+}
+
+.Wcard-title {
+  color:black;
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.Wcard-price {
+  color:black;
+  align-items: center;
+  margin-top: 13%;
+}
+
+.wButton {
+  height: 20px;
+  background: none;
+  color:rgb(26, 25, 25);
+  border: grey solid 1px;
+  border-radius: 20px;
+  margin-left: 20%;
+  margin-top: 7%;
+  cursor: pointer;
+}
+
+.Wborder {
+  width: 90%;
+  margin-top: 10px;
+  border-bottom: grey solid 2px;
+}
+
+// Ajub
+
+@media screen and (min-width: 560px) {
+
+    li a {
+        padding: 5px;
+        background-color: rgb(8, 8, 8);
+        color: #fff ;
+        text-decoration: none;
+    }
+    
+    body{
+    
+        font-family: sans-serif;
+        
+    }
+    
+    .style-varukorg{
+        height: 3px;
+        width: 100%;
+        background-color: grey;
+        position: relative;
+        top: -30px;
+    
+    }
+    
+    h3{
+        position: relative;
+        left: 140px;
+        top: -47px;
+        margin-bottom: 0;
+        color: black;
+    }
+    
+    
+    h5{
+        font-size: 22px;
+        margin-top: 1px;
+        margin-left: 6px;
+        color: black;
+    }
+    
+    .Wish-rubrik {
+        text-align: center;
+    }
+    
+    .Wish-text{
+        text-align: center;
+    }
+    
+    span{
+        background-color: black;
+    }
+    
+    .home{
+        position: relative;
+        left: 15px;
+        top: 17px;
+        font-size: 28px;
+        
+    }
+    .wish{
+        position: relative;
+        left: 90px;
+        top: -10px;
+       
+    }
+    
+    .varukorg{
+        position: relative;
+        left: 233px;
+        top: -43px;
+       
+    }
+    
+    header{
+        background-image: url(/Bilder/svart.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 1100px 70px;
+        width: 100%;
+        height: 100px;
+        color: white;
+        align-items: center;
+        margin-top: -16px;
+    }
+    
+    ion-icon {
+        font-size: 28px;
+      }
+    
+    .Kassa{
+         border-radius: 9%;
+         background-color: green;
+         border: none;
+          padding: 20px;
+          text-align: center;
+          position: relative;
+          left: 79%;
+    
+      }
+    
+    
+    .heade{
+        width: 80%;
+        height: 80px;
+        position: relative;
+        left: 120px;
+       
+    }
+    
+    .cart-text{
+        position: relative;
+        left: 9px;
+        color: black;
+    }
+    
+    .Soffa{
+        border: 2px solid rgb(100, 99, 99);
+        border-radius: 5px;
+        padding: 2px ;
+        margin-right: 293px;
+        margin-top: 18px;
+        border-width: 1px;
+        position: relative;
+        top: 50px;
+        left: 11px;
+        
+    }
+    .Badkar{
+        border: 2px solid rgb(100, 99, 99);
+        border-radius: 5px;
+        padding: 2px ;
+        margin-right: 293px;
+        margin-top: 18px;
+        border-width: 1px;
+        position: relative;
+        top: 50px;
+        left: 11px;
+    }
+    .Stege{
+        border: 2px solid rgb(100, 99, 99);
+        border-radius: 5px;
+        padding: 2px ;
+        margin-right: 293px;
+        margin-top: 18px;
+        border-width: 1px;
+        position: relative;
+        top: 50px;
+        left: 11px;
+        
+    }
+    .Spegel{
+        border: 2px solid rgb(100, 99, 99);
+        border-radius: 5px;
+        padding: 2px ;
+        margin-right: 293px;
+        margin-top: 18px;
+        border-width: 1px;
+        position: relative;
+        top: 50px;
+        left: 150px;
+        
+    }
+    .Vas{
+        border: 2px solid rgb(100, 99, 99);
+        border-radius: 5px;
+        padding: 2px ;
+        margin-right: 293px;
+        margin-top: 18px;
+        border-width: 1px;
+        position: relative;
+        top: 50px;
+        left: 11px;
+       
+    }
+    .Kruka{
+        border: 2px solid rgb(100, 99, 99);
+        border-radius: 5px;
+        padding: 2px ;
+        margin-right: 293px;
+        margin-top: 18px;
+        border-width: 1px;
+        position: relative;
+        top: 50px;
+        left: 11px;
+        
+    }
+    .Bokhylla{
+        border: 2px solid rgb(100, 99, 99);
+        border-radius: 5px;
+        padding: 2px ;
+        margin-right: 293px;
+        margin-top: 18px;
+        border-width: 1px;
+        position: relative;
+        top: 50px;
+        left: 11px;
+        
+    }
+    .Stol{
+        border: 2px solid rgb(100, 99, 99);
+        border-radius: 5px;
+        padding: 2px ;
+        margin-right: 293px;
+        margin-top: 18px;
+        border-width: 1px;
+        position: relative;
+        top: 50px;
+        left: 150px;
+        
+    }
+    
+    
+    .product-container{
+        justify-content: center;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        
+    }
+    .produkt-sumering{
+        max-width: 650px;
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .produkt-sumering ion-icon{
+        font-size: 25px;
+        color:red;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    
+    .produkt-header{
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        justify-content: flex-start;
+        border-bottom: 3px solid grey;
+        margin-top:  0;
+    }
+    
+    .produkt-titel{
+        width: 45%;
+    }
+    
+    
+    .produkt-pris{
+        width: 15%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .produkt-titel{
+        margin-bottom: -20px;
+    }
+    .produkt-antal{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        margin-bottom: -3px;
+    
+    }
+    .produkt-total{
+        margin-bottom: -30px;
+    
+    }
+    
+    .close{
+        position: relative;
+        top: -60px;
+    }
+    
+    .korgTotal{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 10px 0;
+        
+    
+    }
+    
+    
+    .Pris{
+        width: 15%;
+        display: flex;
+        align-items: center;
+        position:relative;
+        left: 290px;
+        top: -76px;
+    }
+    
+    .antal{
+        width: 30%;
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .totalt{
+        width: 10%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        position: relative;
+        left: 580px;
+        top: -113px;
+    
+    }
+    .change{
+        color: black;
+        background-color: white;
+        position: relative; 
+        top: -59px;
+        left: 20px;
+    }
+    .antalartiklar{
+        color: black;
+        background-color: white;
+        position: relative;
+        left: 400px;
+        top: -95px;
+    
+    
+    }
+    .totalSummaLista{ 
+        display: flex;
+        align-items: center;
+       
+        width: 50%;
+        padding: 10px 0;
+        position: relative;
+        left: 330px;
+        top: -36px;
+        border-bottom: 10px solid grey;
+    }
+    .lägg-till-wishlist{
+        position: relative;
+        left: 40px;
+    }
+    .lägg-till{
+        position: relative;
+        left: 20px;
+    }
+    
+    }
+    
+    @media screen and (max-width: 996px) {
+    
+        li a {
+            padding: 5px;
+            background-color: rgb(8, 8, 8);
+            color: #fff ;
+            text-decoration: none;
+        }
+        
+        body{
+        
+            font-family: sans-serif;
+        }
+        
+        .style-varukorg{
+            height: 3px;
+            width: 100%;
+            background-color: grey;
+            position: relative;
+            top: -30px;
+        
+        }
+        
+        h3{
+            position: relative;
+            left: 140px;
+            top: -47px;
+            margin-bottom: 0;
+            color: black;
+        }
+        
+        
+        h5{
+            font-size: 22px;
+            margin-top: 1px;
+            margin-left: 6px;
+            color: black;
+        }
+        
+        .Wish-rubrik {
+            text-align: center;
+        }
+        
+        .Wish-text{
+            text-align: center;
+        }
+        
+        span{
+            background-color: black;
+        }
+        
+        .home{
+            position: relative;
+            left: 25px;
+            top: 17px;
+            font-size: 28px;
+            
+        }
+        .wish{
+            position: relative;
+            left: 760px;
+            top: -10px;
+           
+        }
+        
+        .varukorg{
+            position: relative;
+            left: 853px;
+            top: -43px;
+           
+        }
+        
+        header{
+            background-image: url(/Bilder/svart.jpg);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 1100px 70px;
+            width: 100%;
+            height: 100px;
+            color: white;
+            align-items: center;
+            margin-top: -16px;
+        }
+        
+        ion-icon {
+            font-size: 28px;
+          }
+        
+        .Kassa{
+             border-radius: 9%;
+             background-color: green;
+             border: none;
+              padding: 20px;
+              text-align: center;
+              position: relative;
+              left: 79%;
+        
+          }
+        
+        
+        .heade{
+            width: 80%;
+            height: 80px;
+            position: relative;
+            left: 120px;
+           
+        }
+        
+        .cart-text{
+            position: relative;
+            left: 9px;
+            color: black;
+        }
+        
+        .Soffa{
+            border: 2px solid rgb(100, 99, 99);
+            border-radius: 5px;
+            padding: 2px ;
+            margin-right: 18px;
+            border-width: 1px;
+            
+        }
+        .Badkar{
+            border: 2px solid rgb(100, 99, 99);
+            border-radius: 5px;
+            padding: 2px ;
+            margin-right: 18px;
+            border-width: 1px;
+            
+        }
+        .Stege{
+            border: 2px solid rgb(100, 99, 99);
+            border-radius: 5px;
+            padding: 2px ;
+            margin-right: 18px;
+            border-width: 1px;
+            
+        }
+        .Spegel{
+            border: 2px solid rgb(100, 99, 99);
+            border-radius: 5px;
+            padding: 2px ;
+            border-width: 1px;
+            
+        }
+        .Vas{
+            border: 2px solid rgb(100, 99, 99);
+            border-radius: 5px;
+            padding: 2px ;
+            margin-right: 18px;
+            margin-top: 18px;
+            border-width: 1px;
+           
+        }
+        .Kruka{
+            border: 2px solid rgb(100, 99, 99);
+            border-radius: 5px;
+            padding: 2px ;
+            margin-right: 18px;
+            margin-top: 18px;
+            border-width: 1px;
+            
+        }
+        .Bokhylla{
+            border: 2px solid rgb(100, 99, 99);
+            border-radius: 5px;
+            padding: 2px ;
+            margin-right: 18px;
+            margin-top: 18px;
+            border-width: 1px;
+            
+        }
+        .Stol{
+            border: 2px solid rgb(100, 99, 99);
+            border-radius: 5px;
+            padding: 2px ;
+            margin-top: 18px;
+            border-width: 1px;
+            
+        }
+        
+        
+        .product-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 50px;
+            padding-bottom: 100px;
+        }
+        .produkt-sumering{
+            max-width: 650px;
+            justify-content: space-around;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        .produkt-sumering ion-icon{
+            font-size: 25px;
+            color:red;
+            margin-left: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        
+        .produkt-header{
+            width: 100%;
+            max-width: 650px;
+            display: flex;
+            justify-content: flex-start;
+            border-bottom: 3px solid grey;
+            margin-top:  0;
+        }
+        
+        .produkt-titel{
+            width: 45%;
+        }
+        
+        
+        .produkt-pris{
+            width: 15%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 0;
+        }
+        .produkt-titel{
+            margin-bottom: -20px;
+        }
+        .produkt-antal{
+            width: 30%;
+            display: flex;
+            align-items: center;
+            margin-bottom: -3px;
+        
+        }
+        .produkt-total{
+            margin-bottom: -30px;
+        
+        }
+        
+        .close{
+            position: relative;
+            top: -60px;
+        }
+        
+        .korgTotal{
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            padding: 10px 0;
+            
+        
+        }
+        
+        
+        .Pris{
+            width: 15%;
+            display: flex;
+            align-items: center;
+            position:relative;
+            left: 290px;
+            top: -76px;
+        }
+        
+        .antal{
+            width: 30%;
+            margin: 40px;
+            display: flex;
+            align-items: center;
+            
+        }
+        
+        .totalt{
+            width: 10%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 0;
+            position: relative;
+            left: 580px;
+            top: -113px;
+        
+        }
+        .change{
+            color: black;
+            background-color: white;
+            position: relative; 
+            top: -59px;
+            left: 20px;
+        }
+        .antalartiklar{
+            color: black;
+            background-color: white;
+            position: relative;
+            left: 400px;
+            top: -95px;
+        
+        
+        }
+        .totalSummaLista{ 
+            display: flex;
+            align-items: center;
+           
+            width: 50%;
+            padding: 10px 0;
+            position: relative;
+            left: 330px;
+            top: -36px;
+            border-bottom: 10px solid grey;
+        }
+        .lägg-till-wishlist{
+            position: relative;
+            left: 40px;
+        }
+        .lägg-till{
+            position: relative;
+            left: 20px;
+        }
+        
+        }
+    
+        @media screen and (min-width: 992px) {
+    
+            li a {
+                padding: 5px;
+                background-color: rgb(8, 8, 8);
+                color: #fff ;
+                text-decoration: none;
+            }
+            
+            body{
+            
+                font-family: sans-serif;
+            }
+            
+            .style-varukorg{
+                height: 3px;
+                width: 100%;
+                background-color: grey;
+                position: relative;
+                top: -30px;
+            
+            }
+            
+            h3{
+                position: relative;
+                left: 140px;
+                top: -47px;
+                margin-bottom: 0;
+            }
+            
+            
+            h5{
+                font-size: 22px;
+                margin-top: 1px;
+                margin-left: 6px;
+            }
+            
+            .Wish-rubrik {
+                text-align: center;
+            }
+            
+            .Wish-text{
+                text-align: center;
+            }
+            
+            span{
+                background-color: black;
+            }
+            
+            .home{
+                position: relative;
+                left: 65px;
+                top: 17px;
+                font-size: 28px;
+                
+            }
+            .wish{
+                position: relative;
+                left: 660px;
+                top: -10px;
+               
+            }
+            
+            .varukorg{
+                position: relative;
+                left: 853px;
+                top: -43px;
+               
+            }
+            
+            header{
+                background-image: url(/Bilder/svart.jpg);
+                background-repeat: no-repeat;
+                background-position: center top;
+                background-size: 1100px 70px;
+                width: 100%;
+                height: 100px;
+                color: white;
+                align-items: center;
+                margin-top: -16px;
+            }
+            
+            ion-icon {
+                font-size: 28px;
+              }
+            
+            .Kassa{
+                 border-radius: 9%;
+                 background-color: green;
+                 border: none;
+                  padding: 20px;
+                  text-align: center;
+                  position: relative;
+                  left: 79%;
+            
+              }
+            
+            
+            .heade{
+                width: 80%;
+                height: 80px;
+                position: relative;
+                left: 120px;
+               
+            }
+            
+            .cart-text{
+                position: relative;
+                left: 9px;
+            }
+            
+            .Soffa{
+                border: 2px solid rgb(100, 99, 99);
+                border-radius: 5px;
+                padding: 2px ;
+                margin-right: 18px;
+                border-width: 1px;
+                
+                
+            }
+            .Badkar{
+                border: 2px solid rgb(100, 99, 99);
+                border-radius: 5px;
+                padding: 2px ;
+                margin-right: 18px;
+                border-width: 1px;
+                
+            }
+            .Stege{
+                border: 2px solid rgb(100, 99, 99);
+                border-radius: 5px;
+                padding: 2px ;
+                margin-right: 18px;
+                border-width: 1px;
+                
+            }
+            .Spegel{
+                border: 2px solid rgb(100, 99, 99);
+                border-radius: 5px;
+                padding: 2px ;
+                border-width: 1px;
+                
+            }
+            .Vas{
+                border: 2px solid rgb(100, 99, 99);
+                border-radius: 5px;
+                padding: 2px ;
+                margin-right: 18px;
+                margin-top: 18px;
+                border-width: 1px;
+               
+            }
+            .Kruka{
+                border: 2px solid rgb(100, 99, 99);
+                border-radius: 5px;
+                padding: 2px ;
+                margin-right: 18px;
+                margin-top: 18px;
+                border-width: 1px;
+                
+            }
+            .Bokhylla{
+                border: 2px solid rgb(100, 99, 99);
+                border-radius: 5px;
+                padding: 2px ;
+                margin-right: 18px;
+                margin-top: 18px;
+                border-width: 1px;
+                
+            }
+            .Stol{
+                border: 2px solid rgb(100, 99, 99);
+                border-radius: 5px;
+                padding: 2px ;
+                margin-top: 18px;
+                border-width: 1px;
+                
+            }
+            
+            
+            .product-container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-top: 50px;
+                padding-bottom: 100px;
+                position: relative;
+                left: -150px;
+            }
+            .produkt-sumering{
+                max-width: 650px;
+                justify-content: space-around;
+                margin: 0 auto;
+                margin-top: 50px;
+            }
+            .produkt-sumering ion-icon{
+                font-size: 25px;
+                color:red;
+                margin-left: 10px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            
+            .produkt-header{
+                width: 100%;
+                max-width: 650px;
+                display: flex;
+                justify-content: flex-start;
+                border-bottom: 3px solid grey;
+                margin-top:  0;
+            }
+            
+            .produkt-titel{
+                width: 45%;
+            }
+            
+            
+            .produkt-pris{
+                width: 15%;
+                display: flex;
+                align-items: center;
+                margin-bottom: 0;
+            }
+            .produkt-titel{
+                margin-bottom: -20px;
+            }
+            .produkt-antal{
+                width: 30%;
+                display: flex;
+                align-items: center;
+                margin-bottom: -3px;
+            
+            }
+            .produkt-total{
+                margin-bottom: -30px;
+            
+            }
+            
+            .close{
+                position: relative;
+                top: -60px;
+            }
+            
+            .korgTotal{
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+                padding: 10px 0;
+                
+            
+            }
+            
+            
+            .Pris{
+                width: 15%;
+                display: flex;
+                align-items: center;
+                position:relative;
+                left: 290px;
+                top: -76px;
+            }
+            
+            .antal{
+                width: 30%;
+                margin: 40px;
+                display: flex;
+                align-items: center;
+                
+            }
+            
+            .totalt{
+                width: 10%;
+                display: flex;
+                align-items: center;
+                margin-bottom: 0;
+                position: relative;
+                left: 580px;
+                top: -113px;
+            
+            }
+            .change{
+                color: black;
+                background-color: white;
+                position: relative; 
+                top: -59px;
+                left: 20px;
+            }
+            .antalartiklar{
+                color: black;
+                background-color: white;
+                position: relative;
+                left: 400px;
+                top: -95px;
+            
+            
+            }
+            .totalSummaLista{ 
+                display: flex;
+                align-items: center;
+               
+                width: 50%;
+                padding: 10px 0;
+                position: relative;
+                left: 330px;
+                top: -36px;
+                border-bottom: 10px solid grey;
+            }
+            .lägg-till-wishlist{
+                position: relative;
+                left: 40px;
+            }
+            .lägg-till{
+                position: relative;
+                left: 20px;
+            }
+            
+            }
+
+            @media screen and (max-width: 996px) {
+    
+                li a {
+                    padding: 5px;
+                    background-color: rgb(8, 8, 8);
+                    color: #fff ;
+                    text-decoration: none;
+                }
+                
+                body{
+                
+                    font-family: sans-serif;
+                }
+                
+                .style-varukorg{
+                    height: 3px;
+                    width: 100%;
+                    background-color: grey;
+                    position: relative;
+                    top: -30px;
+                
+                }
+                
+                h3{
+                    position: relative;
+                    left: 140px;
+                    top: -47px;
+                    margin-bottom: 0;
+                    color: black;
+                }
+                
+                
+                h5{
+                    font-size: 22px;
+                    margin-top: 1px;
+                    margin-left: 6px;
+                    color: black;
+                }
+                
+                .Wish-rubrik {
+                    text-align: center;
+                }
+                
+                .Wish-text{
+                    text-align: center;
+                }
+                
+                span{
+                    background-color: black;
+                }
+                
+                .home{
+                    position: relative;
+                    left: 25px;
+                    top: 17px;
+                    font-size: 28px;
+                    
+                }
+                .wish{
+                    position: relative;
+                    left: 760px;
+                    top: -10px;
+                   
+                }
+                
+                .varukorg{
+                    position: relative;
+                    left: 853px;
+                    top: -43px;
+                   
+                }
+                
+                header{
+                    background-image: url(/Bilder/svart.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center top;
+                    background-size: 1100px 70px;
+                    width: 100%;
+                    height: 100px;
+                    color: white;
+                    align-items: center;
+                    margin-top: -16px;
+                }
+                
+                ion-icon {
+                    font-size: 28px;
+                  }
+                
+                .Kassa{
+                     border-radius: 9%;
+                     background-color: green;
+                     border: none;
+                      padding: 20px;
+                      text-align: center;
+                      position: relative;
+                      left: 79%;
+                
+                  }
+                
+                
+                .heade{
+                    width: 80%;
+                    height: 80px;
+                    position: relative;
+                    left: 120px;
+                   
+                }
+                
+                .cart-text{
+                    position: relative;
+                    left: 9px;
+                    color: black;
+                }
+                
+                .Soffa{
+                    border: 2px solid rgb(100, 99, 99);
+                    border-radius: 5px;
+                    padding: 2px ;
+                    margin-right: 18px;
+                    border-width: 1px;
+                    
+                }
+                .Badkar{
+                    border: 2px solid rgb(100, 99, 99);
+                    border-radius: 5px;
+                    padding: 2px ;
+                    margin-right: 18px;
+                    border-width: 1px;
+                    
+                }
+                .Stege{
+                    border: 2px solid rgb(100, 99, 99);
+                    border-radius: 5px;
+                    padding: 2px ;
+                    margin-right: 18px;
+                    border-width: 1px;
+                    
+                }
+                .Spegel{
+                    border: 2px solid rgb(100, 99, 99);
+                    border-radius: 5px;
+                    padding: 2px ;
+                    border-width: 1px;
+                    
+                }
+                .Vas{
+                    border: 2px solid rgb(100, 99, 99);
+                    border-radius: 5px;
+                    padding: 2px ;
+                    margin-right: 18px;
+                    margin-top: 18px;
+                    border-width: 1px;
+                   
+                }
+                .Kruka{
+                    border: 2px solid rgb(100, 99, 99);
+                    border-radius: 5px;
+                    padding: 2px ;
+                    margin-right: 18px;
+                    margin-top: 18px;
+                    border-width: 1px;
+                    
+                }
+                .Bokhylla{
+                    border: 2px solid rgb(100, 99, 99);
+                    border-radius: 5px;
+                    padding: 2px ;
+                    margin-right: 18px;
+                    margin-top: 18px;
+                    border-width: 1px;
+                    
+                }
+                .Stol{
+                    border: 2px solid rgb(100, 99, 99);
+                    border-radius: 5px;
+                    padding: 2px ;
+                    margin-top: 18px;
+                    border-width: 1px;
+                    
+                }
+                
+                
+                .product-container{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin-top: 50px;
+                    padding-bottom: 100px;
+                }
+                .produkt-sumering{
+                    max-width: 650px;
+                    justify-content: space-around;
+                    margin: 0 auto;
+                    margin-top: 50px;
+                }
+                .produkt-sumering ion-icon{
+                    font-size: 25px;
+                    color:red;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+                
+                .produkt-header{
+                    width: 100%;
+                    max-width: 650px;
+                    display: flex;
+                    justify-content: flex-start;
+                    border-bottom: 3px solid grey;
+                    margin-top:  0;
+                }
+                
+                .produkt-titel{
+                    width: 45%;
+                }
+                
+                
+                .produkt-pris{
+                    width: 15%;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 0;
+                }
+                .produkt-titel{
+                    margin-bottom: -20px;
+                }
+                .produkt-antal{
+                    width: 30%;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: -3px;
+                
+                }
+                .produkt-total{
+                    margin-bottom: -30px;
+                
+                }
+                
+                .close{
+                    position: relative;
+                    top: -60px;
+                }
+                
+                .korgTotal{
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 100%;
+                    padding: 10px 0;
+                    
+                
+                }
+                
+                
+                .Pris{
+                    width: 15%;
+                    display: flex;
+                    align-items: center;
+                    position:relative;
+                    left: 290px;
+                    top: -76px;
+                }
+                
+                .antal{
+                    width: 30%;
+                    margin: 40px;
+                    display: flex;
+                    align-items: center;
+                    
+                }
+                
+                .totalt{
+                    width: 10%;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 0;
+                    position: relative;
+                    left: 580px;
+                    top: -113px;
+                
+                }
+                .change{
+                    color: black;
+                    background-color: white;
+                    position: relative; 
+                    top: -59px;
+                    left: 20px;
+                }
+                .antalartiklar{
+                    color: black;
+                    background-color: white;
+                    position: relative;
+                    left: 400px;
+                    top: -95px;
+                
+                
+                }
+                .totalSummaLista{ 
+                    display: flex;
+                    align-items: center;
+                   
+                    width: 50%;
+                    padding: 10px 0;
+                    position: relative;
+                    left: 330px;
+                    top: -36px;
+                    border-bottom: 10px solid grey;
+                }
+                .lägg-till-wishlist{
+                    position: relative;
+                    left: 40px;
+                }
+                .lägg-till{
+                    position: relative;
+                    left: 20px;
+                }
+                
+                }
+            
+                @media screen and (min-width: 1200px) {
+            
+                    li a {
+                        padding: 5px;
+                        background-color: rgb(8, 8, 8);
+                        color: #fff ;
+                        text-decoration: none;
+                    }
+                    
+                    body{
+                    
+                        font-family: sans-serif;
+                    }
+                    
+                    .style-varukorg{
+                        height: 3px;
+                        width: 100%;
+                        background-color: grey;
+                        position: relative;
+                        top: -30px;
+                    
+                    }
+                    
+                    h3{
+                        position: relative;
+                        left: 140px;
+                        top: -47px;
+                        margin-bottom: 0;
+                    }
+                    
+                    
+                    h5{
+                        font-size: 22px;
+                        margin-top: 1px;
+                        margin-left: 6px;
+                    }
+                    
+                    .Wish-rubrik {
+                        text-align: center;
+                    }
+                    
+                    .Wish-text{
+                        text-align: center;
+                    }
+                    
+                    span{
+                        background-color: black;
+                    }
+                    
+                    .home{
+                        position: relative;
+                        left: 65px;
+                        top: 17px;
+                        font-size: 28px;
+                        
+                    }
+                    .wish{
+                        position: relative;
+                        left: 760px;
+                        top: -10px;
+                       
+                    }
+                    
+                    .varukorg{
+                        position: relative;
+                        left: 953px;
+                        top: -43px;
+                       
+                    }
+                    
+                    header{
+                        background-image: url(/Bilder/svart.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center top;
+                        background-size: 1100px 70px;
+                        width: 100%;
+                        height: 100px;
+                        color: white;
+                        align-items: center;
+                        margin-top: -16px;
+                    }
+                    
+                    ion-icon {
+                        font-size: 28px;
+                      }
+                    
+                    .Kassa{
+                         border-radius: 9%;
+                         background-color: green;
+                         border: none;
+                          padding: 20px;
+                          text-align: center;
+                          position: relative;
+                          left: 79%;
+                    
+                      }
+                    
+                    
+                    .heade{
+                        width: 80%;
+                        height: 80px;
+                        position: relative;
+                        left: 120px;
+                       
+                    }
+                    
+                    .cart-text{
+                        position: relative;
+                        left: 9px;
+                    }
+                    
+                    .Soffa{
+                        border: 2px solid rgb(100, 99, 99);
+                        border-radius: 5px;
+                        padding: 2px ;
+                        margin-right: 18px;
+                        border-width: 1px;
+                        
+                        
+                    }
+                    .Badkar{
+                        border: 2px solid rgb(100, 99, 99);
+                        border-radius: 5px;
+                        padding: 2px ;
+                        margin-right: 18px;
+                        border-width: 1px;
+                        
+                    }
+                    .Stege{
+                        border: 2px solid rgb(100, 99, 99);
+                        border-radius: 5px;
+                        padding: 2px ;
+                        margin-right: 18px;
+                        border-width: 1px;
+                        
+                    }
+                    .Spegel{
+                        border: 2px solid rgb(100, 99, 99);
+                        border-radius: 5px;
+                        padding: 2px ;
+                        border-width: 1px;
+                        
+                    }
+                    .Vas{
+                        border: 2px solid rgb(100, 99, 99);
+                        border-radius: 5px;
+                        padding: 2px ;
+                        margin-right: 18px;
+                        margin-top: 18px;
+                        border-width: 1px;
+                        position: relative;
+                        left: -120px;
+                       
+                    }
+                    .Kruka{
+                        border: 2px solid rgb(100, 99, 99);
+                        border-radius: 5px;
+                        padding: 2px ;
+                        margin-right: 18px;
+                        margin-top: 18px;
+                        border-width: 1px;
+                        position: relative;
+                        left: -120px;
+                        
+                    }
+                    .Bokhylla{
+                        border: 2px solid rgb(100, 99, 99);
+                        border-radius: 5px;
+                        padding: 2px ;
+                        margin-right: 18px;
+                        margin-top: 18px;
+                        border-width: 1px;
+                        
+                    }
+                    .Stol{
+                        border: 2px solid rgb(100, 99, 99);
+                        border-radius: 5px;
+                        padding: 2px ;
+                        margin-top: 18px;
+                        border-width: 1px;
+                        
+                    }
+                    
+                    
+                    .product-container{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        margin-top: 50px;
+                        padding-bottom: 100px;
+                        position: relative;
+                        left: -15px;
+                    }
+                    .produkt-sumering{
+                        max-width: 650px;
+                        justify-content: space-around;
+                        margin: 0 auto;
+                        margin-top: 50px;
+                    }
+                    .produkt-sumering ion-icon{
+                        font-size: 25px;
+                        color:red;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        cursor: pointer;
+                    }
+                    
+                    .produkt-header{
+                        width: 100%;
+                        max-width: 650px;
+                        display: flex;
+                        justify-content: flex-start;
+                        border-bottom: 3px solid grey;
+                        margin-top:  0;
+                    }
+                    
+                    .produkt-titel{
+                        width: 45%;
+                    }
+                    
+                    
+                    .produkt-pris{
+                        width: 15%;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 0;
+                    }
+                    .produkt-titel{
+                        margin-bottom: -20px;
+                    }
+                    .produkt-antal{
+                        width: 30%;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: -3px;
+                    
+                    }
+                    .produkt-total{
+                        margin-bottom: -30px;
+                    
+                    }
+                    
+                    .close{
+                        position: relative;
+                        top: -60px;
+                    }
+                    
+                    .korgTotal{
+                        display: flex;
+                        justify-content: flex-end;
+                        width: 100%;
+                        padding: 10px 0;
+                        
+                    
+                    }
+                    
+                    
+                    .Pris{
+                        width: 15%;
+                        display: flex;
+                        align-items: center;
+                        position:relative;
+                        left: 290px;
+                        top: -76px;
+                        color: black;
+                    }
+                    
+                    .antal{
+                        width: 30%;
+                        margin: 40px;
+                        display: flex;
+                        align-items: center;
+                        
+                    }
+                    
+                    .totalt{
+                        width: 10%;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 0;
+                        position: relative;
+                        left: 580px;
+                        top: -113px;
+                        color: black;
+                    
+                    }
+                    .change{
+                        color: black;
+                        background-color: white;
+                        position: relative; 
+                        top: -59px;
+                        left: 20px;
+                    }
+                    .antalartiklar{
+                        color: black;
+                        background-color: white;
+                        position: relative;
+                        left: 400px;
+                        top: -95px;
+                    
+                    
+                    }
+                    .totalSummaLista{ 
+                        display: flex;
+                        align-items: center;
+                       
+                        width: 50%;
+                        padding: 10px 0;
+                        position: relative;
+                        left: 330px;
+                        top: -36px;
+                        border-bottom: 10px solid grey;
+                        color: black;
+                    }
+                    .lägg-till-wishlist{
+                        position: relative;
+                        left: 40px;
+                    }
+                    .lägg-till{
+                        position: relative;
+                        left: 20px;
+                    }
+                    
+                    }
+            
+    
+            
