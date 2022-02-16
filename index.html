@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betalsida</title>
+    <link rel="stylesheet" href="/Style/main.css">
+    <script src="/JavaScript/main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+</head>
+
+<body>
+
+
+    <!--Information-->
+    <!-- 
+    Input:Denna tagg används för att skapa olika gränssnittskomponenter i en form. Input kan användas för att skapa olika komponenter.  
+    Label:Egenskapen for för <label>-taggen och id-egenskaperna för <input>-taggen synkroniseras. 
+    Option:Taggen definierar ett alternativ i urvalslistan.
+     Br:Taggen används för extra mellanrum.
+     -->
+
+    <div class="header-1">
+        <h3 class="info">Betalinformation</h3>
+        <p class="fält">* Indikerar fält som måste fyllas i.</p>
+        <form action="/action_page.php" class="form1">
+            <label for="fname">Namn *</label>
+            <input type="text" class="i1" id="fname" placeholder="Namn..">
+
+            <label for="lname">Efternamn *</label>
+            <input type="text" class="i1" id="lname" placeholder="Efternamn..">
+
+            <label for="lname">E-post *</label>
+            <input type="text" class="i1" id="epost" placeholder="E-post..">
+
+            <label for="adress">Telefon</label>
+            <input type="text" class="i1" id="number" placeholder="Nummer..">
+
+            <label for="pnummer">Personnumer *</label>
+            <input type="text" class="i1" id="pnummer" placeholder="Personnumer..">
+
+            <label for="adress"> Leveransadress *</label>
+            <input type="text" class="i1" id="adress" placeholder="Adress..">
+
+            <label for="land">Land</label>
+            <select id="land" class="i1" name="Land">
+                <option value="sverige">Sverige</option>
+                <option value="danmark">Danmark</option>
+                <option value="norge">Norge</option>
+            </select>
+
+
+        </form>
+
+
+
+        <br>
+
+        <!-- Betalning-->
+
+        <h3 class="info">Betalningsalternativ</h3>
+        <input type="checkbox" name="Kort" id="Kort">
+        <label for="Kort">Kort</label> <i class="fas fa-credit-card"></i>
+
+        <br>
+        <br>
+        <input placeholder="För- och efternamn" type="tel" name="nummer">
+
+        <input type="tel" name="Kort" id="kort-1" placeholder="Visa/MasterCard Nummer">
+        <br>
+        <form action="">
+            <br>
+            <input placeholder="MM/ÅÅ" type="tel" name="expiry">
+            <input placeholder="CVC" type="number" name="cvc">
+        </form>
+
+        <br>
+        <br>
+        <br>
+        <input type="checkbox" name="Swish" id="Swish">
+        <label for="Swish">Swish</label> <i class="fa fa-swish"><img class="swish" src="/Bilder/swish.ico" alt=""></i>
+        <input type="text" name="Swish" id="swish" placeholder="Nummer">
+
+        <span>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="adress">Skicka till fakturaadressen</label>
+
+        </span>
+        <br>
+        <br>
+
+        <button onclick="myFunction1()" class="Nästa">Slutför</button>
+
+
+    </div>
+
+</body>
+
+</html>
