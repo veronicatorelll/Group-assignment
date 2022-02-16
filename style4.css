@@ -1,0 +1,287 @@
+/* @charset "UTF-8";
+li a {
+  padding: 5px;
+  background-color: #080808;
+  color: #fff;
+  text-decoration: none; }
+ 
+body {
+  font-family: sans-serif;
+}
+
+.style-varukorg {
+  height: 3px;
+  width: 100%;
+  background-color: grey;
+  position: relative;
+  top: -30px; }
+
+h3 {
+  position: relative;
+  left: 140px;
+  top: -47px;
+  margin-bottom: 0;
+ }
+
+h5  {
+  font-size: 22px;
+  margin-top: 1px;
+  margin-left: 6px; 
+}
+  
+
+.Wish-rubrik {
+  text-align: center; }
+
+.Wish-text {
+  text-align: center; }
+
+span {
+  background-color: black; }
+
+.home {
+  position: relative;
+  left: 65px;
+  top: 17px;
+  font-size: 28px; }
+
+.wish {
+  position: relative;
+  left: 960px;
+  top: -10px; }
+
+.varukorg {
+  position: relative;
+  left: 1053px;
+  top: -43px; }
+
+header {
+  background-image: url(/Bilder/svart.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 1100px 70px;
+  width: 100%;
+  height: 100px;
+  color: white;
+  align-items: center;
+  margin-top: -16px; }
+
+ion-icon {
+  font-size: 28px; }
+
+.Kassa {
+  border-radius: 33px;
+  background-color: rgba(0, 128, 0, 0.692);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  left: 79%; }
+
+.heade {
+  width: 80%;
+  height: 80px;
+  position: relative;
+  left: 120px; }
+
+.cart-text {
+  display: flex;
+justify-content: center;
+  left: 20px; 
+  margin: 10px;
+}
+
+.card-title {
+  display: flex;
+justify-content: center;
+  margin: 10px;
+}
+
+.Soffa {
+  padding: 2px;
+  margin-right: 18px;
+  border-width: 1px;
+  border-radius: 5px;
+ }
+
+.Badkar  {
+  padding: 2px;
+  margin-right: 18px;
+  border-width: 1px;
+  border-radius: 5px;
+ }
+
+.Stege {
+  padding: 2px;
+  margin-right: 18px;
+  border-width: 1px;
+  border-radius: 5px;
+ }
+
+.Spegel {
+  padding: 2px;
+  border-width: 1px; }
+
+.Vas {
+  padding: 2px;
+  margin-right: 18px;
+  margin-top: 18px;
+  border-width: 1px; }
+
+.Kruka {
+  padding: 2px;
+  margin-right: 18px;
+  margin-top: 18px;
+  border-width: 1px; }
+
+.Bokhylla {
+  padding: 2px;
+  margin-right: 18px;
+  margin-top: 18px;
+  border-width: 1px; }
+
+.Stol {
+  padding: 2px;
+  margin-top: 18px;
+  border-width: 1px; }
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px; }
+
+.produkt-sumering {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px; }
+
+.produkt-sumering ion-icon {
+  font-size: 25px;
+  color: red;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer; }
+
+.produkt-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 3px solid grey;
+  margin-top: 0; }
+
+.produkt-titel {
+  width: 45%; }
+
+.produkt-pris {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0; }
+
+.produkt-titel {
+  margin-bottom: -20px; }
+
+.produkt-antal {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-bottom: -3px; }
+
+.produkt-total {
+  margin-bottom: -30px; }
+
+.close {
+  position: relative;
+  top: -60px; }
+
+.korgTotal {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0; }
+
+.Pris {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 290px;
+  top: -76px; }
+
+.antal {
+  width: 30%;
+  margin: 40px;
+  display: flex;
+  align-items: center; }
+
+.totalt {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  position: relative;
+  left: 580px;
+  top: -113px; }
+
+.change {
+  color: black;
+  background-color: white;
+  position: relative;
+  top: -59px;
+  left: 20px; }
+
+.antalartiklar {
+  color: black;
+  background-color: white;
+  position: relative;
+  left: 400px;
+  top: -95px; }
+
+.totalSummaLista {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 10px 0;
+  position: relative;
+  left: 330px;
+  top: -36px;
+  border-bottom: 10px solid grey; }
+
+.lägg-till-wishlist {
+  position: relative;
+  left: 40px; }
+
+.lägg-till {
+  position: relative;
+  left: 20px; }
+
+.productWrap{
+  display: flex;
+  align-content: center;
+  padding: 2px;
+  margin-top: 20px;
+  margin-left: 70px;
+  border-width: 1px; 
+}
+
+h5.ProdNamn,  p.beskrivningDiv {
+  color: rgba(3, 3, 3, 0.692);
+  display: flex;
+  justify-content: center;
+  left: 20px; 
+  margin: 1px;
+  padding: 2px;  
+  margin-right: 58px;
+  border-width: 1px;
+}
+
+h3.prisDiv {
+margin-left: -10px; 
+color: rgba(18, 19, 18, 0.719);
+}
+ */
